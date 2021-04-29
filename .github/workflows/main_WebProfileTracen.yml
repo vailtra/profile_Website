@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'WebProfileTracen'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_047e97fd37624bea886cf594bde03646 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_4e1a0ebfde3e4521a3db92963b6bd7b7 }}
         package: .
