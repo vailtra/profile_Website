@@ -1,9 +1,10 @@
 {
-  "name": "profile_Website",
+  "name": "profile_website",
   "version": "1.0.0",
   "description": "A Web Profile that uses react as a front end",
   "main": "server/server.js",
   "scripts": {
+    "start":"bable-node server/server.js",
     "devServer": "nodemon server/server.js",
     "server": "run-s cleanServer buildServer runServer",
     "devClient": "run-s cleanClient devBundle",
